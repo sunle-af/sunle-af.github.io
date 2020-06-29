@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  height: 100vh;
+  cursor: url("../img/"), auto;
+  background: #1b1b1b;
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+}
+/*# sourceMappingURL=main.css.map */
