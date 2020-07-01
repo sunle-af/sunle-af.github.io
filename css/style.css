@@ -318,7 +318,7 @@ a {
   font-family: var(--ff-secondary);
   font-weight: var(--fw-bold);
   font-family: 'Source Sans Pro', sans-serif;
-  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #e72a3a), color-stop(50%, #fff), color-stop(60%, #5bdaff));
+  background: webkit-gradient(linear, left top, right top, color-stop(10%, #e72a3a), color-stop(50%, #fff), color-stop(60%, #5bdaff));
   background: linear-gradient(to right, #e72a3a 10%, #fff 50%, #5bdaff 60%);
   background-size: auto auto;
   background-clip: border-box;
@@ -353,6 +353,7 @@ a {
 .intro__img {
   -webkit-box-shadow: var(--bs);
           box-shadow: var(--bs);
+          
 }
 
 .section__subtitle--intro {
@@ -699,8 +700,11 @@ a {
 .sig {
   cursor: none;
   display: block;
-  margin-right: auto;
-  width: 30%;
+ 
+    margin-right: 0px;
+    width: 200px;
+    height: 50px;
+ 
 }
 /*# sourceMappingURL=style.css.map */
 
@@ -785,4 +789,19 @@ a {
   100% {margin-top:0px;}
 
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*# sourceMappingURL=style.css.map */
