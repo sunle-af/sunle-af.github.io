@@ -309,13 +309,13 @@ a {
 }
 
 .wrapper:hover {
-  text-align: center;
+  text-align: none;
 }
 
 .wrapper:hover h1 {
   color: #fff;
   font-size: var(--fs-h1);
-  font-family: var(--ff-primary);
+  font-family: var(--ff-secondary);
   font-weight: var(--fw-bold);
   font-family: 'Source Sans Pro', sans-serif;
   background: -webkit-gradient(linear, left top, right top, color-stop(10%, #e72a3a), color-stop(50%, #fff), color-stop(60%, #5bdaff));
@@ -702,4 +702,94 @@ a {
   margin-right: auto;
   width: 30%;
 }
+/*# sourceMappingURL=style.css.map */
+
+.slider-wrapper {
+  
+  font-size: 40px; font-family: var(--ff-primary);  
+ background-color: white;
+  font-weight: bold;
+    height: 100%; 
+  display: flex;
+ bottom: 15px;
+ 
+  position: relative;
+
+ 
+}
+  
+.slider-text1 {
+  font-family: var(--ff-primary);
+  background: white;
+ height: 100%;
+  color: black;
+  overflow: hidden;
+  animation: slide 5s linear infinite,shine 1s linear infinite;
+  
+ 
+}
+.slider-text2 {
+  font-family: var(--ff-primary);
+  background: white;
+  color: black;
+  height: 100%;
+
+}
+.slider-text3 {
+  font-family: var(--ff-primary); font-family: var(--ff-primary);
+  background: white;
+  color: black;
+  height: 100%;
+}
+.slider-text4 {
+  font-family: var(--ff-primary); font-family: var(--ff-primary);
+  background: white;
+  color:black;
+  height: 100%;
+  
+}
+.slider div {
+  font-family: var(--ff-primary);
+ 
+  height: 50px;
+  margin-bottom: 50px;
+  
+ 
+  box-sizing: border-box;
+} 
+.slider{
+  height: 70px; font-family: var(--ff-primary);
+   overflow: hidden;   /* hide the text outside the slider div area */
+
+}
+@keyframes slide {
+  0% {margin-top:-400px;}
+  25% {margin-top:-300px;}
+  50% {margin-top:-200px;}
+  75% {margin-top:-100px;}
+  100%{margin-top:0px;}
+
+}
+@keyframes slide {
+  0% {margin-top:-400px;}
+  5% {margin-top:-300px;}  /* 5% delay */
+
+  25% {margin-top:-300px;}
+  30% {margin-top:-200px;} /* 5% delay */
+  
+  
+  50% {margin-top:-200px;}
+  55% {margin-top:-100px;} /* 5% delay */
+  75% {margin-top:-100px;}
+  85% {margin-top:00px;}
+  100% {margin-top:0px;}
+
+}
+
+
+
+
+
+
+
 /*# sourceMappingURL=style.css.map */

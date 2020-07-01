@@ -38,7 +38,8 @@ body::-webkit-scrollbar-track{
 }
 body::-webkit-scrollbar-thumb{
     background: #1e1e24;
-}
+} 
+
 
 
 /* General styles */
@@ -75,6 +76,13 @@ strong { font-weight: var(--fw-bold) }
     outline: 3px solid var(--clr-dark);
     outline-offset: 3px;
 }
+ 
+ 
+
+
+
+
+
 
 /* Buttons */
 
@@ -591,4 +599,10 @@ a {
         width: 30%;
  }
  
+ .animated-text{
+    background-color: red($color: #000000); 
+    color:red($color: #000000);
+    top: 50%;
+    left: 50%;
 
+ }
