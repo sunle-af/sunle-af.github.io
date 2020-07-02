@@ -349,7 +349,8 @@ a {
 
 .intro {
   position: relative;
-    height: 100vh;/* height*/
+    height: 80vh;/* height*/
+    align-content: center;
 }
 
 .intro__img {
