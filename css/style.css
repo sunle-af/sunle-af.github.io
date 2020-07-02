@@ -53,6 +53,7 @@ body {
 
 section {
   padding: 5em 2em;
+
 }
 
 img {
@@ -348,6 +349,7 @@ a {
 
 .intro {
   position: relative;
+    height: 100vh;/* height*/
 }
 
 .intro__img {
@@ -397,57 +399,12 @@ a {
   }
 }
 
-/*  My services section  */
-.my-services {
-  background-color: var(--clr-dark);
-  background-image: url(../img/services-bg.jpg);
-  background-size: cover;
-  /* background-blend-mode: multiply; */
-  color: var(--clr-light);
-  text-align: center;
-}
-
-.section__title--services {
-  color: var(--clr-accent);
-  position: relative;
-}
-
-.section__title--services::after {
-  content: '';
-  display: block;
-  width: 2em;
-  height: 1px;
-  margin: 0.5em auto 1em;
-  background: var(--clr-light);
-  opacity: 0.25;
-}
-
-.services {
-  margin-bottom: 4em;
-}
-
-.service {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-@media (min-width: 800px) {
-  .services {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .service + .service {
-    margin-left: 2em;
-  }
-}
+  
 
 .about-me {
   max-width: 1000px;
   margin: 0 auto;
+  height: 100vh;/* height*/
 }
 
 .about-me__img {
@@ -494,6 +451,7 @@ a {
   background-color: var(--clr-dark);
   color: var(--clr-light);
   text-align: center;
+  height: 100vh;/* height*/
 }
 
 .portfolio {
@@ -534,6 +492,7 @@ a {
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);
+  height: 100vh;/* height*/
 }
 
 .footer a {
@@ -789,6 +748,45 @@ a {
   100% {margin-top:0px;}
 
 } 
+/*gallary no.1*/
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+ 
 
 
 
