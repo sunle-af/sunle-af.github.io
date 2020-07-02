@@ -349,7 +349,7 @@ a {
 
 .intro {
   position: relative;
-    height: 80vh;/* height*/
+    
     align-content: center;
 }
 
@@ -385,7 +385,8 @@ a {
     min-width: 250px;
     position: relative;
     z-index: 2;
-  }
+
+  } 
   .section__subtitle--intro {
     -ms-flex-item-align: start;
         -ms-grid-row-align: start;
@@ -400,6 +401,17 @@ a {
   }
 }
 
+.link-PG{
+  position:absolute;                  
+bottom:0;                          
+left:50%; 
+ 
+ 
+}
+.link-PG-hr{
+cursor: none;
+
+}
   
 
 .about-me {
