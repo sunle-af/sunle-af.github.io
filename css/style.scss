@@ -48,7 +48,7 @@ body {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
-  cursor: none;
+  
 }
 
 section {
@@ -516,15 +516,30 @@ a {
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);  
+    
 }
-.ul2{
-  
+.hey{
+  font-family:Schnyder L Web,serif;
+   font-size: larger;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.my-contact{
+  padding-top: 0px;
+    display: flex;
+  justify-content: center;
+}
+.ul2{ 
   position: absolute;
   margin:0;
   padding: 0;
   display: flex;
+  justify-content: center;
 }  
 .ul2 .li2{
+   
   
   list-style: none;
 }

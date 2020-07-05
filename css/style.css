@@ -48,7 +48,6 @@ body {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
-  cursor: none;
 }
 
 section {
@@ -518,6 +517,24 @@ a {
   font-size: var(--fs-h3);
 }
 
+.hey {
+  font-family: Schnyder L Web,serif;
+  font-size: larger;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.my-contact {
+  padding-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .ul2 {
   position: absolute;
   margin: 0;
@@ -525,6 +542,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .ul2 .li2 {
