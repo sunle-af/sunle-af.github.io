@@ -10,6 +10,8 @@
         <!-- Update these with your own fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
          <link rel="stylesheet" href="css/style.css">
+         <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
+         <link href='https://fonts.googleapis.com/css?family=Lateef' rel='stylesheet'>
 
     </head>
     <body>
@@ -21,23 +23,22 @@
             </button>
             <nav class="nav">
                 <ul class="nav__list">
-                   <li class="tooltip"><a href="#work" class="nav__link"><i class="fas fa-camera"></i></i> <span class="tooltiptext">Photo Gallery</span></a></li>
+                   <li class="tooltip"><a href="#work" class="nav__link"><i class="fas fa-camera"></i> <span class="tooltiptext">Photo Gallery</span></a></li>
                     <li class="tooltip"><a href="#about" class="nav__link"><i class="fas fa-male"></i> <span class="tooltiptext">About Me</span></a></li>
-                    <li class="tooltip"><a href="#contact" class="nav__link">
-                    <i class="far fa-address-book"></i> <span class="tooltiptext"> Contact</span></a></li>
-                    <li class="tooltip"><a href="#dark" class="nav__link"> <i class="fas fa-moon"></i><span class="tooltiptext">Dark Mode</span></a></li>
+                    <li class="tooltip"><a href="#contact" class="nav__link"> <i class="far fa-address-book"></i> <span class="tooltiptext"> Contact</span></a></li> 
                   </ul>
             </nav>
         </header>
 
 
+<div class="progress"></div>
         <!--intro-->
         <section class="intro" id="home">
              <h1 class="section__title section__title--intro">
                 Hi! I am <div class="wrapper"><h1>Subhash Suryawanshi</h1></div> 
               </h1>
             
-              <img src = "img/me1.jpg" alt="a picture of me" class="intro__img">  
+              <img src = "img/1.jpg" alt="a picture of me" class="intro__img">  
                <div class="slider-wrapper">
              
                 <div class="slider">
@@ -53,12 +54,26 @@
 
          <!--My Work-->
         <section class="my-work" id="work">
+          
+           
+  
+      
+            </div>
+            
             <h2 class="section__title section__title--work">Galleries</h2>
-            <p class="section__subtitle section__subtitle--work">Campus IITR
+            <p class="section__subtitle section__subtitle--work"  id = "one">Campus IITR
             </p>
-         
-<div class="grid-container">
-    <div>
+            <div class="sq">
+              <ul class="gal">
+                <li class="gal1"><a href="#one" class="sq">Campus IITR</a></li>
+                <li class="gal1">  <a href="#two" class="sq">Manali</a></li>
+                <li class="gal1">  <a href="#three" class="sq">Mussoorie</a></li>
+                <li class="gal1"> <a href="#four" class="sq">Shimla</a></li>
+                <li class="gal1"><a href="main-gallery/index.html" target ="_blank" class="sq">Main </a>  
+                </li>
+              </ul>
+            <div class="grid-container">
+          <div>
         <img class='grid-item grid-item-1' src="img/IITR/1.jpg" alt=''>
         <p>"1"</p>
       </div>
@@ -99,9 +114,8 @@
         <p>"10"</p>
       </div>  
    
-</div>
-<a href="main-gallery/index.html" class="link">View Main Gallery</a>    
-<p class="section__subtitle section__subtitle--work">Manali
+</div>    
+<p class="section__subtitle section__subtitle--work" id = "two">Manali
 </p>
 
 <div class="grid-container">
@@ -146,9 +160,8 @@
 <p>"10"</p>
 </div> 
  
-</div>
-<a href="main-gallery/index.html" class="link">View Main Gallery</a>    
-<p class="section__subtitle section__subtitle--work">Mussoorie
+</div>     
+<p class="section__subtitle section__subtitle--work"  id = "three">Mussoorie
 </p>
 
 <div class="grid-container">
@@ -194,9 +207,8 @@
 </div>  
  
 </div> 
-
-<a href="main-gallery/index.html" class="link">View Main Gallery</a>
-<p class="section__subtitle section__subtitle--work">Shimla
+ 
+<p class="section__subtitle section__subtitle--work"  id = "four">Shimla
 </p>
 
 <div class="grid-container">
@@ -242,7 +254,7 @@
 </div>    
 </div> 
 
-<a href="main-gallery/index.html" class="link">View Main Gallery</a>
+<a href="main-gallery/index.html" class="section__subtitle section__subtitle--work" >View Main Gallery</a>
  
 
 
@@ -252,19 +264,21 @@
 
            <!--About me-->
              <section class="about-me" id ="about">
-                <h2 class="section__title section--about">Who I am</h2>
+                <h2 class="section__title section--about">About me!</h2>
                 <p class="section__subtitle section__subtitle--about">
-    designer & Photoghraper based out of Indore
+                  Amature Photographer,Programmer and Web-developer.
                 </p>
                 <div class="about-me__body">
-                    <p>
-    lkfjldkjflksdjklfjlkdjklaflksda
-                    </p>
-                    <p>
-    fkljkadfjklasdjfkjajfjoiefoidjfoijioqwerioqr
-                    </p>
-                </div>
-                <img src="img/2.jpg" alt ="iitr pic"  class="about-me__img">                                                                      <!--Second-->
+                  <p style="    font-family: 'Lateef'; font-size: 30px;">Aside from clicking button all day I am a third-year B.tech Computer Science student  at IIT Roorkee.
+                    I am a big fan of the band "Cigarettes After Sex", the duo Alex and Drew and I love watching anime speaking of which,
+                     <p style ="font-family: Segoe Script;">"if my life is il vento d`oro,when will my 03:45 come?"<br> <small> Yes,  it is a Jojo's reference.</small> </p> 
+                     <p style="    font-family: 'Lateef'; font-size: 30px;">     like, every other programmers, I am also a caffeine-dependent life-form,
+                      it helps me to turn caffeine into code.<br>
+                       I am Just a short and skinny guy trying to create a life bit by bit  pixel by pixel.</p>
+                    
+                  </div>
+              
+                 <img src="img/2.jpg" alt ="iitr pic"  class="about-me__img">                                                                      <!--Second-->
     
             </section>
             
