@@ -324,9 +324,9 @@ a {
 .wrapper:hover h1 {
   color: #fff;
   font-size: var(--fs-h1);
-  font-family: var(--ff-secondary);
-  font-weight: var(--fw-bold);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-reg);
+ 
   background: webkit-gradient(linear, left top, right top, color-stop(10%, #e72a3a), color-stop(50%, #fff), color-stop(60%, #5bdaff));
   background: linear-gradient(to right, #e72a3a 10%, #fff 50%, #5bdaff 60%);
   background-size: auto auto;
@@ -335,7 +335,7 @@ a {
   color: #fff;
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; 
   -webkit-animation: textclip 2s linear infinite;
           animation: textclip 2s linear infinite;
   display: inline-block;
