@@ -386,6 +386,13 @@ a {
   height: 100%;
 }
 
+.slider-text3 {
+  font-family: var(--ff-secondary);
+  background: white;
+  color: black;
+  height: 100%;
+}
+
 .slider-text4 {
   font-weight: var(--fw-reg);
   background: white;
