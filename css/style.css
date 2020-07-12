@@ -368,8 +368,8 @@ a {
 }
 
 .slider-text1 {
-  font-family: var(--ff-secondary);
-  font-weight: var(--fw-reg);
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-bold);
   background: white;
   height: 100%;
   color: black;
@@ -379,30 +379,32 @@ a {
 }
 
 .slider-text2 {
-  font-family: var(--ff-secondary);
-  font-weight: var(--fw-reg);
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-bold);
   background: white;
   color: black;
   height: 100%;
 }
 
 .slider-text3 {
-  font-family: var(--ff-secondary);
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-bold);
   background: white;
   color: black;
   height: 100%;
 }
 
 .slider-text4 {
-  font-weight: var(--fw-reg);
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-bold);
   background: white;
   color: black;
   height: 100%;
 }
 
 .slider div {
-  font-family: var(--ff-secondary);
-  font-weight: var(--fw-reg);
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-bold);
   height: 50px;
   margin-bottom: 50px;
   -webkit-box-sizing: border-box;
