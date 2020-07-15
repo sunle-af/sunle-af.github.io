@@ -210,6 +210,7 @@ header {
   font-weight: var(--fw-reg);
   font-size: var(--fs-h3);
   text-decoration: none;
+  cursor: none;
 }
 
 .tooltip {
@@ -239,6 +240,7 @@ header {
 }
 
 .nav__link:hover {
+  cursor: none;
   color: var(--clr-accent);
 }
 
@@ -246,7 +248,7 @@ header {
   padding: .5em;
   background: transparent;
   border: 0;
-  cursor: pointer;
+  cursor: none;
   position: absolute;
   right: 1em;
   top: 1em;
@@ -691,6 +693,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: none;
 }
 
 .ul2 {
@@ -709,10 +712,15 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: none;
   list-style: none;
 }
 
 .ul2 .li2 a {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: none;
   display: block;
   position: relative;
   width: 50px;
@@ -833,8 +841,6 @@ a {
   position: absolute;
   -webkit-transition-duration: 200ms;
   transition-duration: 200ms;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
   -webkit-animation: cursorAnim .5s infinite alternate;
   animation: cursorAnim .5s infinite alternate;
   pointer-events: none;

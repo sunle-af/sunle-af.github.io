@@ -35,7 +35,6 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-track {
   background: #1e1e24;
 }
-
 body::-webkit-scrollbar-thumb {
   background: #1e1e24;
 }
@@ -211,6 +210,7 @@ header {
   font-weight: var(--fw-reg);
   font-size: var(--fs-h3);
   text-decoration: none;
+  cursor: none;
 }
 
 .tooltip {
@@ -240,6 +240,7 @@ header {
 }
 
 .nav__link:hover {
+   cursor: none;
   color: var(--clr-accent);
 }
 
@@ -247,7 +248,7 @@ header {
   padding: .5em;
   background: transparent;
   border: 0;
-  cursor: pointer;
+  cursor: none;
   position: absolute;
   right: 1em;
   top: 1em;
@@ -651,6 +652,7 @@ a {
   padding-top: 0px;
     display: flex;
   justify-content: center;
+  cursor: none;
 }
 .ul2{ 
   position: absolute;
@@ -661,10 +663,12 @@ a {
 }  
 .ul2 .li2{
   justify-content: center;
-  
+   cursor: none;
   list-style: none;
 }
 .ul2 .li2  a{
+  justify-content: center;
+  cursor: none;
   display: block;
   position: relative;
   width: 50px;
@@ -750,8 +754,7 @@ a {
   position: absolute;
   -webkit-transition-duration: 200ms;
           transition-duration: 200ms;
-  -webkit-transition-timing-function: ease-out;
-           transition-timing-function: ease-out; 
+    
   -webkit-animation: cursorAnim .5s infinite alternate;
           animation: cursorAnim .5s infinite alternate;
   pointer-events: none;
