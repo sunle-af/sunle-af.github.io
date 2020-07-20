@@ -452,10 +452,10 @@ a {
     align-content: center;
 }
 
-.intro__img {
+.intro-img {
   -webkit-box-shadow: var(--bs);
           box-shadow: var(--bs);
-          
+
 }
 
 .section__subtitle--intro {
@@ -607,7 +607,7 @@ a {
       filter: grayscale(0);
     }
     &:hover {
-      border-color: coral;
+      border-color: 	#FF5050;
     }
     img {
       width: 100%;
@@ -771,6 +771,8 @@ a {
   opacity: .5;
   top: -8px;
   left: -8px;
+  transition: 200ms;
+  transition-timing-function: ease-out;
   -webkit-animation: cursorAnim2 .5s infinite alternate;
           animation: cursorAnim2 .5s infinite alternate;
 }
