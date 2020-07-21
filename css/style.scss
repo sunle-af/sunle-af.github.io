@@ -455,6 +455,7 @@ a {
 .intro-img {
   -webkit-box-shadow: var(--bs);
           box-shadow: var(--bs);
+         
 
 }
 
@@ -481,7 +482,7 @@ a {
     -ms-grid-row-span: 2;
     -ms-grid-column: 1;
     grid-area: img;
-    min-width: 250px;
+    min-width: 350px;
     height: auto;
     position: relative;
     z-index: 2;
@@ -588,6 +589,63 @@ a {
 
   
 /*gallary no.1*/ 
+ 
+.loading {
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  text-transform:uppercase;
+  
+  width:400px;
+  text-align:center;
+  line-height:50px;
+   position:absolute;
+   left:0;right:0; 
+   margin:auto;
+}
+
+.loading span {
+  position:relative;
+  z-index:999;
+  color:#fff;
+}
+.loading:before {
+  content:'';
+  background:#61bdb6;
+  width:200px;
+  height:36px;
+  display:block;
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+  margin:auto;
+  
+  animation:2s loadingBefore infinite ease-in-out;
+}
+
+@keyframes loadingBefore {
+  0%   {transform:translateX(-14px);}
+  50%  {transform:translateX(14px);}
+  100% {transform:translateX(-14px);}
+}
+
+
+.loading:after {
+  content:'';
+  background:#ff3600;
+  width:14px;
+  height:60px;
+  display:block;
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+  margin:auto;
+  opacity:.5;
+  
+  animation:2s loadingAfter infinite ease-in-out;
+}
+
+@keyframes loadingAfter {
+  0%   {transform:translateX(-50px);}
+  50%  {transform:translateX(50px);}
+  100% {transform:translateX(-50px);}
+}
 .grid-container {
   columns: 5 200px;
   column-gap: 1.5rem;
