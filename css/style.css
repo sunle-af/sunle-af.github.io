@@ -623,7 +623,7 @@ a {
   font-family: var(--ff-primary);
   font-weight: bold;
   text-transform: uppercase;
-  width: 400px;
+  width: 200px;
   text-align: center;
   line-height: 50px;
   position: absolute;
@@ -641,7 +641,7 @@ a {
 .loading:before {
   content: '';
   background: #61bdb6;
-  width: 200px;
+  width: 150px;
   height: 36px;
   display: block;
   position: absolute;
