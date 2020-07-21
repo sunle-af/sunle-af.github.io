@@ -620,7 +620,8 @@ a {
 
 /*gallary no.1*/
 .loading {
-  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-family: var(--ff-primary);
+  font-weight: bold;
   text-transform: uppercase;
   width: 400px;
   text-align: center;
