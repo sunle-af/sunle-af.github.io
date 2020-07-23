@@ -589,17 +589,47 @@ a {
 
   
 /*gallary no.1*/ 
- 
-.loading {
-  font-family:var(--ff-primary);
+.container_flex{
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}.item {
+  background: none;
+  padding: 0px;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  list-style:none;
+  line-height: 150px;
+  font-family: "Cinzel Decorative";
   font-weight: bold;
-  text-transform:uppercase;
-  
-  width:200px;
+  font-size: 1em;
+  text-align: center;
+}
+.float {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.float:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.float-item {
+  float: left;
+}
+
+
+.loading {
+  font-family: "Cinzel Decorative";
+ text-transform:uppercase;
+   width:200px;
   text-align:center;
   line-height:50px;
    position:absolute;
-   left:0;right:0; 
+  
    margin:auto;
 }
 
@@ -927,6 +957,8 @@ a {
     height: 50px;
  
 }
+
+
 /*# sourceMappingURL=style.css.map */
 
 

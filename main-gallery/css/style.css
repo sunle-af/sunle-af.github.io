@@ -71,7 +71,7 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   z-index: -1;
-  background: black;
+  background: whitesmoke;
 }
 
 .gallery {
@@ -96,7 +96,7 @@ body {
 .gallery-image {
   position: relative;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 .gallery-image:before, .gallery-image:after {
@@ -320,10 +320,10 @@ a {
 }
 
 .sec {
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .progress {
@@ -336,32 +336,35 @@ a {
 }
 
 .container {
+  right: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
   position: -webkit-sticky;
   position: fixed;
   top: 0;
+  padding-top: 0;
   width: 100%;
   z-index: 100;
   background: black;
 }
 
 a {
-  font-size: 10px;
-  padding: 1rem 3rem;
+  font-size: 2vh;
   color: #f4f4f4;
   text-transform: uppercase;
   margin: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .btn {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-decoration: none;
   border: 1px solid #9294f8;
   position: relative;
@@ -387,5 +390,16 @@ a {
 
 .btn:hover:before {
   left: 100%;
+}
+
+.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  height: 10px;
+  font-size: 50px;
+  text-align: center;
+  z-index: +10000000;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
