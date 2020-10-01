@@ -11,7 +11,7 @@ The website is made by me from scratch it is only been possible with the help of
 
 1)Course:- Build and deploy a portfolio course by Kevin Powell.
 
-2)All the animation that you see on my portfolio website are inspired by or been taken from websites  
+2)All the animation that you see on my portfolio website are inspired by or been taken from websites:
 
 codepen:-```https://codepen.io/ ```
 
