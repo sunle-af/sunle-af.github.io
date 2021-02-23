@@ -16,6 +16,8 @@
 
     </head>
     <body>
+
+      
         <div class="cursor"></div>
          <header>
               <img src="img/logoM.png" alt="" class="sig">
@@ -226,8 +228,26 @@
                         </a>
             </li>
             </ul>
+           
            </section>
+           <div> <p>This page has</p>
+            <h2>0</h2>
+            <p>views</p></div>
            <small>&copy;  Copyright 23-7-2020, Design & Developed by Subhash</small>    
+           <script>
+                            const countEl = document.getElementById('count');
+
+                updateVisitCount();
+
+                function updateVisitCount() {
+                  fetch('https://api.countapi.xyz/update/codepen/danimal/?amount=1')
+                  .then(res => res.json())
+                  .then(res => {
+                    countEl.innerHTML = res.value;
+                  });
+}
+           </script>  
+           
     </footer>
     <script src="js/index.js"></script>
     
