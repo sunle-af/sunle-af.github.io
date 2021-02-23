@@ -243,7 +243,7 @@
                   fetch('https://api.countapi.xyz/update/codepen/danimal/?amount=1')
                   .then(res => res.json())
                   .then(res => {
-                    let value = res.value;
+                     value = res.value;
                     result = value-6000;
                     countEl.innerHTML = result;
                   });
