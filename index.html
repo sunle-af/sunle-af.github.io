@@ -230,7 +230,7 @@
             </ul>
            
            </section>
-           <div> <p>Website Vist Count<h2 id="counter">0</h2></p>
+           <div> <p>Website Vist Count<h2 id="counter">1000</h2></p>
             
  
            <small>&copy;  Copyright 23-7-2020, Design & Developed by Subhash</small>    
@@ -244,7 +244,7 @@
                   .then(res => res.json())
                   .then(res => {
                      value = res.value;
-                    result = 900;
+                    result = value-6000;
                     countEl.innerHTML = result;
                   });
 }
