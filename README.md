@@ -3,7 +3,7 @@
 All the images that you see on this website are captured with the mobile camera.
 
 
-#### I am the rightful owner of all these Pictures, please do not use the Picture without my permission.
+#### I am the rightful owner of all these Pictures, please do not use the Pictures without my permission.
 
 
 The website is made by me from scratch and it is only been possible with the help of:
