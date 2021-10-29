@@ -1,6 +1,6 @@
 ### 21:45 23-07-2020
 
-All the images that you see on this website are captured with the mobile camera.
+All the images that you see on this website are captured with the Mobile Camera.
 
 
 #### I am the rightful owner of all these Pictures, please do not use the Picture without my permission.
